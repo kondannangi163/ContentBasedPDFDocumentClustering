@@ -1,0 +1,17 @@
+public class Stringpla{
+public static void main(String args[]){
+    String s="Shilpa";
+    for(int i=s.length;i<=0;i--)
+     {
+ 	String srev=srev+s.charAt(i);
+     }
+     if(srev.equals(s))
+     {
+        System.out.println("Pallindrome");
+     }
+     else{
+         System.out.println("Not pallindrome");
+       }
+   }
+}
+         

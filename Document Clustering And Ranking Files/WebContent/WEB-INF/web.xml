@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>shilpa</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    </welcome-file-list>
+   <servlet>
+  <servlet-name>LuceneTesterServ</servlet-name>
+  <servlet-class>LuceneTesterServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>LuceneTesterServ</servlet-name>
+  <url-pattern>/LuceneTesterServ</url-pattern>
+  </servlet-mapping>
+<servlet>
+  <servlet-name>ExtractPageContentServ</servlet-name>
+  <servlet-class>ExtractPageContentServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ExtractPageContentServ</servlet-name>
+  <url-pattern>/ExtractPageContentServ</url-pattern>
+  </servlet-mapping>
+<servlet>
+     <servlet-name>FileCopyDemo</servlet-name>
+    <servlet-class>FileCopyDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileCopyDemo</servlet-name>
+    <url-pattern>/FileCopyDemo</url-pattern>
+  </servlet-mapping>
+</web-app>
